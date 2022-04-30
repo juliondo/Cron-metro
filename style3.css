@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.pai {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(img/Low-camp-nou.jpeg);
+  background-repeat: no-repeat;
+}
+
+#relogio {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  color: white;
+  font-size: 70px;
+}
+
+.filho2 {
+  height: 100px;
+  width: 300px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  height: 2.2em;
+  width: 5.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  color: rgb(76, 214, 87);
+  height: 40px;
+  width: 80px;
+  font-size: 18px;
+}
+
+.start-btn {
+  background-color: rgba(10, 10, 10, 0.434);
+}
+
+.pause-btn {
+  background-color: rgba(10, 10, 10, 0.434);
+}
+
+.clear-btn {
+  background-color: rgba(9, 9, 9, 0.434);
+}
+
+.placar {
+  background-color: rgba(10, 10, 10, 0.327);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+}
