@@ -8,8 +8,8 @@ body {
   background-color: black;
 }
 
-.pai {
-  background-color: aliceblue;
+.container {
+  background-color: rgb(14, 14, 14);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,6 +17,17 @@ body {
   align-items: center;
   background-image: url(img/Low-camp-nou.jpeg);
   background-repeat: no-repeat;
+}
+
+.caixa1 {
+  background-color: rgba(10, 10, 10, 0.327);
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
 }
 
 #relogio {
@@ -28,10 +39,10 @@ body {
   align-items: center;
   border-radius: 40px;
   color: white;
-  font-size: 70px;
+  font-size: 150px;
 }
 
-.filho2 {
+.caixa2 {
   height: 100px;
   width: 300px;
   justify-content: space-around;
@@ -45,31 +56,10 @@ button {
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 3px 3px 3px;
-  color: rgb(76, 214, 87);
+  color: rgb(232, 239, 232);
   height: 40px;
   width: 80px;
   font-size: 18px;
-}
-
-.start-btn {
-  background-color: rgba(10, 10, 10, 0.434);
-}
-
-.pause-btn {
-  background-color: rgba(10, 10, 10, 0.434);
-}
-
-.clear-btn {
-  background-color: rgba(9, 9, 9, 0.434);
-}
-
-.placar {
-  background-color: rgba(10, 10, 10, 0.327);
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  text-align: center;
-  align-items: center;
-  border-radius: 20px;
+  margin-top: 610px;
+  background-color: rgba(10, 10, 10, 0.664);
 }

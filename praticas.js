@@ -11,19 +11,20 @@ function pauseTimer() {
 }
 
 function clearTimer() {
+  clearInterval(interval);
   minutos = 0;
   segundos = 0;
   document.getElementById("relogio").innerText = "00:00";
 }
 
 function relogio() {
+  segundos++;
   if (segundos == 60) {
-    minutos = 1;
+    minutos++;
     segundos = 0;
   }
+  document.getElementById("relogio").innerText =
+    (minutos < 10 ? "0" + minutos : minutos) +
+    ":" +
+    (segundos < 10 ? "0" + segundos : segundos);
 }
-
-document.getElementById("relogio").innerText =
-  (minutos < 10 ? "0" + minutos : minutos) +
-  ":" +
-  (segundos < 10 ? "0" + segundos : segundos);
